@@ -39,6 +39,29 @@ html {
 body {
   margin: 0;
   font-family: roboto,sans-serif;
+  background-color: #274360;
+  color: #FFFFFF;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4f4f4f; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1; 
 }
 
 /**
